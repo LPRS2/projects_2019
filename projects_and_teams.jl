@@ -158,7 +158,7 @@ projects = Project[
 		points           = 45,
 		min_team_members = 3,
 		team = Team(
-			pre_registration = "Andrej, Jovana",
+			pre_registration = "Andrej, Jovana, Filip",
 			members = Student[
 				Student(
 					name    = "Jovana",
@@ -177,8 +177,8 @@ projects = Project[
 				Student(
 					name    = "Filip",
 					surname = "Mihic",
-					index   = "RA-xxx/20yy",
-					email   = "@",
+					index   = "RA-19/2015",
+					email   = "fikimihic@gmail.com",
 					points  = 0,
 				),
 			],
@@ -202,10 +202,10 @@ projects = Project[
 			),
 		),
 		solution = Solution(
-			repo        = URL("https://github.com/X/Y"),
-			youtube     = URL(""),
-			release_bit = URL(""),
-			doc         = URL(""),
+			repo        = URL("https://github.com/AndrejLazic/MSAK_tetris"),
+			youtube     = URL("https://www.youtube.com/watch?v=DbunBw71RKU"),
+			release_bit = URL("https://github.com/AndrejLazic/MSAK_tetris/blob/master/tetris.bit"),
+			doc         = URL("https://github.com/AndrejLazic/MSAK_tetris/blob/master/TETRIS.docx"),
 		),
 	),
 	Project(
