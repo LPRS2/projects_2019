@@ -69,14 +69,14 @@ projects = Project[
 					surname = "Havlovic",
 					index   = "RA-248/2014",
 					email   = "nemanja.havlovic@gmail.com",
-					points  = 45,
+					points  = 43.5,
 				),
 				Student(
 					name    = "Mihajlo",
 					surname = "Solda",
 					index   = "RA-152/2016",
 					email   = "mihajlosolda1997@gmail.com",
-					points  = 45,
+					points  = 43.55,
 				),
 				Student(
 					name    = "Milan",
