@@ -99,10 +99,10 @@ projects = Project[
 			),
 		),
 		solution = Solution(
-			repo        = URL("https://github.com/X/Y"),
-			youtube     = URL(""),
-			release_bit = URL(""),
-			doc         = URL(""),
+			repo        = URL("https://github.com/Arthas19/Chess-LPRS2"),
+			youtube     = URL("https://www.youtube.com/watch?v=YKKa7kuAoDQ"),
+			release_bit = URL("https://github.com/Arthas19/Chess-LPRS2/blob/master/demos/chess.bit"),
+			doc         = URL("https://github.com/Arthas19/Chess-LPRS2/blob/master/documentation.pdf"),
 		),
 	),
 	Project(
