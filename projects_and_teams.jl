@@ -255,10 +255,10 @@ projects = Project[
 			),
 		),
 		solution = Solution(
-			repo        = URL("https://github.com/X/Y"),
-			youtube     = URL(""),
-			release_bit = URL(""),
-			doc         = URL(""),
+			repo        = URL("https://github.com/WizardLemon/Bomberman"),
+			youtube     = URL("https://www.youtube.com/watch?v=Y_VcSoKvU90"),
+			release_bit = URL("https://github.com/WizardLemon/Bomberman/blob/master/download.bit"),
+			doc         = URL("https://github.com/WizardLemon/Bomberman/blob/master/Bomberman-dokumentacija.docx"),
 		),
 	),
 	Project(
