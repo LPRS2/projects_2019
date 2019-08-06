@@ -12,7 +12,7 @@ gen_struct_and_constructor_with_must_specify(
 	:surname,    :String,
 	:index,      :String,
 	:email,      :String,
-	:points,     :Int,
+	:points,     :(Union{Int, Float64}),
 )
 
 gen_struct_and_constructor_with_must_specify(
@@ -148,21 +148,31 @@ if false
 	end
 end
 
-if false
+if true
 	N_youtube = 0
 	for project in projects
 		if project_taken(project) && project.solution.youtube != ""
+			global N_youtube
 			N_youtube += 1
 		end
 	end
 	@show N_youtube
 end
 
-if false
+if true
 	println("Youtube URLs:")
 	for project in projects
 		if project_taken(project) && project.solution.youtube != ""
 			println(project.solution.youtube)
+		end
+	end
+end
+
+if true
+	println("Not have Youtube:")
+	for project in projects
+		if project_taken(project) && project.solution.youtube == ""
+			println(project.name)
 		end
 	end
 end
