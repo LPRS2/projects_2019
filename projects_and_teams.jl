@@ -489,21 +489,24 @@ projects = Project[
 			],
 			sequel_resources = Dict{String, Solution}(
 				"Potapanje brodića" => Solution(
-					repo        = URL("https://github.com/VladimirOstojic/potapanjeBrodica"),
+					repo        = URL("https://github.com/uros96/potapanjeBrodica"),
 					youtube     = URL("https://www.youtube.com/watch?v=carpYddvtfQ"),
 					release_bit = URL[
-						URL("https://github.com/VladimirOstojic/potapanjeBrodica/blob/master/demos/2019/potapanje_brodica_master.bit"),
-						URL("https://github.com/VladimirOstojic/potapanjeBrodica/blob/master/demos/2019/potapanje_brodica_slave.bit"),
+						URL("https://github.com/uros96/potapanjeBrodica/blob/master/potapanje_brodica_master.bit"),
+						URL("https://github.com/uros96/potapanjeBrodica/blob/master/potapanje_brodica_slave.bit"),
 					],
-					doc         = URL("https://github.com/VladimirOstojic/potapanjeBrodica/blob/master/doc/Potapanje_brodica.docx"),
+					doc         = URL("https://github.com/uros96/potapanjeBrodica/blob/master/LPRS2-Potapanje_brodica.pdf"),
 				),
 			),
 		),
 		solution = Solution(
-			repo        = URL("https://github.com/X/Y"),
-			youtube     = URL(""),
-			release_bit = URL(""),
-			doc         = URL(""),
+			repo        = URL("https://github.com/VladimirOstojic/potapanjeBrodica"),
+			youtube     = URL("https://www.youtube.com/watch?v=carpYddvtfQ"),
+			release_bit = URL[
+				URL("https://github.com/VladimirOstojic/potapanjeBrodica/blob/master/demos/2019/potapanje_brodica_master.bit"),
+				URL("https://github.com/VladimirOstojic/potapanjeBrodica/blob/master/demos/2019/potapanje_brodica_slave.bit"),
+			],
+			doc         = URL("https://github.com/VladimirOstojic/potapanjeBrodica/blob/master/doc/Potapanje_brodica.docx"),
 		),
 	),
 	Project(
