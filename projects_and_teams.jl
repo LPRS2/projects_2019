@@ -501,7 +501,7 @@ projects = Project[
 		),
 		solution = Solution(
 			repo        = URL("https://github.com/VladimirOstojic/potapanjeBrodica"),
-			youtube     = URL("https://www.youtube.com/watch?v=carpYddvtfQ"),
+			youtube     = URL(""),
 			release_bit = URL[
 				URL("https://github.com/VladimirOstojic/potapanjeBrodica/blob/master/demos/2019/potapanje_brodica_master.bit"),
 				URL("https://github.com/VladimirOstojic/potapanjeBrodica/blob/master/demos/2019/potapanje_brodica_slave.bit"),
